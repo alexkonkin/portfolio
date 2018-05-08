@@ -1,0 +1,19 @@
+/* CSS used here will be applied after bootstrap.css */
+
+.container-bump{margin-top:60px}
+
+.v-border {
+    border: dashed;
+}
+
+.extended-width-group {
+    width: 600px
+}
+
+.extended-width-button {
+    width: 200px
+}
+
+.list-item-height {
+    height: 90vh;
+}
