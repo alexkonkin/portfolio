@@ -1,4 +1,7 @@
 /* CSS used here will be applied after bootstrap.css */
+body {
+    position: relative;
+}
 
 .container-bump{margin-top:60px}
 
@@ -16,4 +19,17 @@
 
 .list-item-height {
     height: 90vh;
+    padding-top: 80px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav {
+    color: #fff;
+    background-color: #83868a;
+}
+
+a {
+    color: #009fff;
+    text-decoration: none;
+    background-color: #475665;
+    -webkit-text-decoration-skip: objects;
 }
