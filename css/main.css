@@ -1,6 +1,7 @@
 /* CSS used here will be applied after bootstrap.css */
 body {
     position: relative;
+    background-color: #e5eefb;
 }
 
 .container-bump{margin-top:60px}
@@ -51,6 +52,8 @@ a.nav-link:hover {
 
 .project-caption-bg{
     background-color: #77B7DD;
+    /*background-color: #e5eefb;*/
+
 }
 
 .border-projects {
