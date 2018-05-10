@@ -49,16 +49,21 @@ a.nav-link:hover {
     -webkit-text-decoration-skip: objects;
 }
 
-footer {
-
+.project-caption-bg{
+    background-color: #77B7DD;
 }
 
-.box {
-    height: 1000px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+.border-projects {
+    border: solid;
+    border-width: 2px;
 }
-.box>* {
-    flex: 1 1 300px;
+
+.border-item {
+    border: solid;
+    border-width: 1px;
+}
+
+.button-project {
+    color: black;
+    padding: 0;
 }
