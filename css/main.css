@@ -36,14 +36,27 @@ a.nav-link {
     -webkit-text-decoration-skip: objects;
 }
 
+a.nav-link.active:hover {
+    /*color: #009fff;*/
+    color: #fff;
+    text-decoration: none;
+    background-color: #83868a;
+    -webkit-text-decoration-skip: objects;
+    border-color: rgba(69, 0, 84, 0.24);
+    border-with: thin;
+    border-style: solid;
+}
+
+
 a.nav-link:hover {
     color: #009fff;
     /*color: #83868a;*/
     text-decoration: none;
-    /*
+
+
     border-color: #747378;
     border-style: solid;
-    */
+
 
     background-color: #475665;
     /*background-color: #747378;*/
@@ -70,3 +83,26 @@ a.nav-link:hover {
     color: black;
     padding: 0;
 }
+
+.button-contacts {
+    color: black;
+    border-color: #83868a;
+    border-style: solid;
+    background-color: transparent;
+    box-shadow: none;
+
+}
+
+.button-contacts:hover {
+    color: black;
+    border-color: #475665;
+    border-style: solid;
+    background-color: #e5eefb;
+}
+
+
+#lnk_1, #lnk_2, #lnk_3{
+    box-shadow: none;
+}
+
+
